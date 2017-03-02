@@ -9,16 +9,26 @@ body {
     font-family: 'Sanchez', Georgia, sans-serif;
 }
 
-.navbar-brand{
-    position: absolute;
-    left: 0;
-    top: -20px;
+.navbar-brand {
+    clear: left;
+    position: center;
+    padding-bottom: 100px;
+    margin-left: 150px;
+    
+}
+#tagline{
+    clear: left;
+    font-family: 'Verdana', cursive;
+    font-style: italic;
+    font-size: 70px;
+    padding-top: 50px;
   
 }
 
 .jumbotron {
     background-size:150%;
-    height:250px;
+    background-color: #00757b;  
+    height:400px;
     font-family: 'Sanchez', Georgia, sans-serif;
     text-align: center;
         

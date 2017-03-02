@@ -12,15 +12,16 @@ body {
 .navbar-brand {
     clear: left;
     position: center;
-    padding-bottom: 100px;
+    padding-top: 0px;
+    padding-bottom: 120px;
     margin-left: 150px;
     
 }
 #tagline{
     clear: left;
-    font-family: 'Verdana', cursive;
+    font-family: "cursive", georgia;
     font-style: italic;
-    font-size: 70px;
+    font-size: 90px;
     padding-top: 50px;
   
 }
@@ -28,7 +29,7 @@ body {
 .jumbotron {
     background-size:150%;
     background-color: #00757b;  
-    height:400px;
+    height: 380px;
     font-family: 'Sanchez', Georgia, sans-serif;
     text-align: center;
         

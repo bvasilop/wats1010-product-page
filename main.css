@@ -6,14 +6,22 @@ body {
     font-size:14px;
     background-color: #778899;
     line-height: 1.5;
-    font-family: 'Sanchez', serif, sans-serif;
+    font-family: 'Sanchez', Georgia, sans-serif;
 }
 
 .navbar-brand{
-        position: absolute;
-        left: 0;
-        top: -20px;
+    position: absolute;
+    left: 0;
+    top: -20px;
   
+}
+
+.jumbotron {
+    background-size:150%;
+    height:250px;
+    font-family: 'Sanchez', Georgia, sans-serif;
+    text-align: center;
+        
 }
 
 iframe{

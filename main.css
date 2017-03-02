@@ -2,7 +2,24 @@
 /** NOTE: Do not edit the Bootstrap CSS files. **/
 
 body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
+    padding: 0;
+    font-size:14px;
+    background-color: #778899;
+    line-height: 1.5;
+    font-family: 'Sanchez', serif, sans-serif;
+}
+
+.navbar-brand{
+        position: absolute;
+        left: 0;
+        top: -20px;
+  
+}
+
+iframe{
+  width:560px;
+  height:315px;
+}
+.video{
+  text-align: center;
 }

@@ -1,13 +1,7 @@
 //* Styles for Product Page Customization */
 /** NOTE: Do not edit the Bootstrap CSS files. **/
-
-body {
-    
-    padding: 0;
-    font-size:14px;
-    background-color: "black";
-    line-height: 1.5;
-    font-family: 'Sanchez', Georgia, sans-serif;
+html{
+  background-color: #204039;
 }
 
 .navbar-brand {
@@ -18,27 +12,33 @@ body {
     margin-left: 150px;
     
 }
+.navbar-brand img{
+    margin: -27px 0px 0px 76px;
+    width: 70%;
+    height: auto;
+}
 #tagline{
     clear: left;
     font-family: "cursive",georgia;
     font-style: italic;
-    font-size: 90px;
-    padding-top: 50px;
+    font-size: 65px;
+    
   
 }
 
 .jumbotron {
-    background-size:150%;
+    
     background-color: #00757b;  
-    height: 380px;
+    height: 300px;
     font-family: "Sanchez",Georgia,sans-serif;
     text-align: center;
+    margin: 33px 0px 33px 0px;
         
 }
 
 
 #video{
-    position: relative;
+    align: middle;
     background-color:#00757b;
 }
 
@@ -58,4 +58,15 @@ body {
   font-family: "cursive",georgia;
     
   }
+#description p{
+  clear: both;
+  margin: 69px -150px 0px -180px;
+  padding: 36px;
+  background-color: #00757b;  
+  
+}
+blockquote{
+  padding:0;
+  margin-left: 25px;
+  font-size: 18.5px;
 }

@@ -35,7 +35,9 @@ body, html {
     
 }
 .navbar-brand img{
-  margin: -7px 0px 0px 268px;
+  position: relative;
+  top: 3px;
+  left: 292px;
   width: 42%;
   height: auto;
 }
@@ -73,6 +75,9 @@ body, html {
 
 #tagline{
   clear: left;
+  position: relative;
+  top: 10px;
+  left: 10px;
   font-family: "cursive",georgia;
   font-style: italic;
   font-size: 57px;
@@ -87,12 +92,12 @@ body, html {
   font-size: 1.6em;
   padding-top: 8px;
   padding-bottom: 0px;
-  /*background-color: #00245D;*/
+  background-color: transparent;
   color: white;
   text-align: center;
   vertical-align: middle;
   line-height: 30px; 
-  background: rgba(143,184,211,1);
+  /*background: rgba(143,184,211,1);
   background: -moz-linear-gradient(-45deg, rgba(143,184,211,1) 0%, rgba(0,36,93,1) 100%);
   background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(0,36,93,1)), color-stop(100%, rgba(0,36,93,1)));
   background: -webkit-linear-gradient(-45deg, rgba(143,184,211,1) 0%, rgba(0,36,93,1) 100%);
@@ -101,7 +106,7 @@ body, html {
   background: linear-gradient(135deg, rgba(143,184,211,1) 0%, rgba(0,36,93,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ea89f', endColorstr='#00245d', GradientType=1 );
   
-        
+  */      
 
 }
 
@@ -119,11 +124,13 @@ body, html {
 #features{
   text-align:left;
   position: relative;
+  z-index:-100;
   top: -281px;
   left: 703px;
   padding:20px;
   font-size:19px;
   font-family: "cursive",georgia;
+  color: #00245D;
 }
 
 #features h2{
@@ -154,7 +161,7 @@ body, html {
   color: white;
   text-align: center;
   vertical-align: middle;
-  line-height: 30px; 
+  line-height: 45px; 
   background: rgba(143,184,211,1);
   background: -moz-linear-gradient(-45deg, rgba(143,184,211,1) 0%, rgba(0,36,93,1) 100%);
   background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(143,184,211,1)), color-stop(100%, rgba(0,36,93,1)));
@@ -167,14 +174,14 @@ body, html {
 }
 blockquote{
   
-  padding:0;
+  padding: 0;
   margin: -158px -150px 7px -150px;
   font-size: 21.5px;
 }
 #testimonials{
   position: relative;
   z-index: 100;
-  margin-top: 0px;
+  margin-top: 30px;
   font-size: 1.4em;
   padding-top: 0px;
   padding-bottom: 0px;

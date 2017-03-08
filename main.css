@@ -124,7 +124,7 @@ body, html {
 #features{
   text-align:left;
   position: relative;
-  z-index:-100;
+  z-index:100;
   top: -281px;
   left: 703px;
   padding:20px;
@@ -154,7 +154,7 @@ body, html {
   position: relative;
   z-index: 100;
   margin-top: -34px;
-  font-size: 1.6em;
+  font-size: 1.3em;
   padding-top: 32px;
   padding-bottom: 32px;
   /*background-color: #00245D;*/
@@ -221,3 +221,19 @@ blockquote{
   background: linear-gradient(135deg, rgba(143,184,211,1) 0%, rgba(0,36,93,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ea89f', endColorstr='#00245d', GradientType=1 );
 }
+
+footer {
+	background-color: #00245D;
+	color: white;
+	text-align: center;
+}
+footer li {
+	display: inline-block;
+	padding: 25px;
+}
+#social {
+	padding-bottom: 50px;
+}
+#social a {
+	padding: 15px;
+}  

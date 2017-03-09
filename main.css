@@ -200,6 +200,12 @@ blockquote{
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ea89f', endColorstr='#00245d', GradientType=1 );
   
 }
+.img-circle {
+    border-radius: 15%;
+    margin: 20px 0 20px 0;
+    width: 225px;
+    height: 225px;
+}
 #share{
   position: relative;
   z-index: 100;
@@ -221,7 +227,11 @@ blockquote{
   background: linear-gradient(135deg, rgba(143,184,211,1) 0%, rgba(0,36,93,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ea89f', endColorstr='#00245d', GradientType=1 );
 }
-
+.btn{
+	background-color: #00245D;
+	color: #00245D;
+	border-color: #00245D
+}
 footer {
 	background-color: #00245D;
 	color: white;

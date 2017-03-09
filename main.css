@@ -6,27 +6,34 @@ body, html {
   padding: 0;
   max-width: 100%;
   overflow-x: hidden;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Exo", sans-serif;
 }  
 #video-background{
   margin-bottom: -22px;
   width: 100%;
   height:100%;
 }
-
+#brand-logo{
+	position: relative;
+	  top: 14px;
+    left: 227px
+}
 .navbar-inverse, .navbar-right{
   color: white;
   border-style: solid;
   border-color: #00245D;
   border-width: 2px;
-  
+  font-family: "Exo", Georgia, sans-serif;
   text-decoration: none;
   background: #00245D;
+	border-radius: 0%;
   
   
 }
 .navbar-brand {
-  clear: left;
+  font-family:'Monoton', Georgia, sans-serif;
+	color: #00245D;
+	clear: left;
   position: center;
   padding-top: 0px;
   padding-bottom: 120px;
@@ -40,6 +47,21 @@ body, html {
   left: 292px;
   width: 42%;
   height: auto;
+	tilt:
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.navbar-brand:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+
 }
 
 /*.main {
@@ -77,10 +99,10 @@ body, html {
   clear: left;
   position: relative;
   top: 10px;
-  left: 10px;
-  font-family: "cursive",georgia;
-  font-style: italic;
+  left: 310px;
   font-size: 57px;
+	font-family: "Exo", Georgia, sans-serif;
+	
     
   
 }
@@ -129,7 +151,7 @@ body, html {
   left: 703px;
   padding:20px;
   font-size:19px;
-  font-family: "cursive",georgia;
+  font-family: "Exo",georgia;
   color: #00245D;
 }
 
@@ -137,13 +159,10 @@ body, html {
   margin-left: 20px;
   margin-top: -25px;
   font-size: 40px;
-  font-family: "cursive",georgia;
+  font-family: "Exo", "sans-serif", georgia;
     
   }
-#description{
- 
-  
-}
+
 #description p{
   /*clear: both;
   margin: 69px -150px 0px -180px;
@@ -170,16 +189,17 @@ body, html {
   background: -ms-linear-gradient(-45deg, rgba(143,184,211,1) 0%, rgba(0,36,93,1) 100%);
   background: linear-gradient(135deg, rgba(143,184,211,1) 0%, rgba(0,36,93,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ea89f', endColorstr='#00245d', GradientType=1 );
-  
+	
 }
 blockquote{
-  
+  font-family: "Exo", Georgia, sans-serif;
   padding: 0;
   margin: -158px -150px 7px -150px;
   font-size: 21.5px;
 }
 #testimonials{
-  position: relative;
+  font-family: "Exo", Georgia, sans-serif;
+	position: relative;
   z-index: 100;
   margin-top: 30px;
   font-size: 1.4em;
@@ -205,13 +225,14 @@ blockquote{
     margin: 20px 0 20px 0;
     width: 257px;
     height: 257px;
+		
 }
 #share{
-  position: relative;
+	position: relative;
   z-index: 100;
   margin-top: 35px;
   font-size: 1.6em;
-  padding-top: 10px;
+	padding-top: 10px;
   padding-bottom: 10px;
   background-color: #00245D;
   color: white;
@@ -227,6 +248,9 @@ blockquote{
   background: linear-gradient(135deg, rgba(143,184,211,1) 0%, rgba(0,36,93,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ea89f', endColorstr='#00245d', GradientType=1 );
 }
+#share p{
+	font-family: "Exo", Georgia, sans-serif;
+}
 .btn{
 	background-color: #00245D;
 	color: #00245D;
@@ -238,6 +262,7 @@ footer {
 	text-align: center;
 }
 footer li {
+	font-family: "Exo", Georgia, sans-serif;
 	display: inline-block;
 	padding: 25px;
 }

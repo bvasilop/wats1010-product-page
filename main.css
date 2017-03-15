@@ -4,7 +4,7 @@
 body, html {
   margin: 0px auto;
   padding: 0px auto;
-  font-family: "Exo", sans-serif;
+  font-family: "Exo",Georgia,sans-serif;
 }
 /* video-loop-background */
 .video-background { 
@@ -14,7 +14,6 @@ body, html {
   z-index: -100;
   transform: translateX(-50%) translateY(-50%);
   background: url('assets/video/Up.mp4') no-repeat;
-  
   transition: 1s opacity;
 	}
 /* nav */
@@ -32,15 +31,25 @@ body, html {
 }
 
 /* API logo */
-#brand-logo{
-	width: 810px;
-	position: relative;
+h1{
+	
+	display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 90%;
+  left: 25%;
+  top: 0%;
 	font-family:'Monoton', Georgia, sans-serif;
-	font-size: 80px;
+	font-size: 3.6em;
 	color: #00245D;
-	top: 20px;
-  left: 185px;
-	height: auto;
+	margin-bottom: 2em;
+	
+    
+	
+
+
+	
+	
 	tilt:
   -webkit-transition: all 0.5s ease;
      -moz-transition: all 0.5s ease;
@@ -58,39 +67,40 @@ body, html {
 }
 /* tagline-under-logo */
 #tagline{
-  width: 520px;
-  position: relative;
+  margin-top: 2.6em;
 	color: #00245D;
-  top: 65px;
-  left: 347px;
-  font-size: 69px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  left: 21%;
+  
+  font-size: 3.2em;
 	font-family: "Exo", Georgia, sans-serif;
 }
 /* API video */
 #video-features{
- 
-  margin-top: 150px;
+  margin-top: 17.0em;
   position: relative;
   z-index: 100;
  
-  padding:30px;
+  
 }
 /* features */    
 #features{
-  text-align:left;
+  text-align: left;
   position: relative;
-  z-index:100;
-	margin-bottom: 100px;
-  top: 25px; 
-  left: 25px;
-  padding: 20px;
+  z-index: 100;
+	margin-bottom: 1.0em;
+  left: 1em;
+  padding: 1.5em;
   font-size: 27px;
   font-family: "Exo",georgia;
   color: #00245D;
 }
 
 #features h2{
-  margin-left: 20px;
+  margin-left: 37px;
   margin-top: -25px;
   font-size: 40px;
   font-family: "Exo", "sans-serif", georgia;
@@ -98,8 +108,8 @@ body, html {
 /**** extra div ***/
 /* description quote */
 #description p{
-	padding:0;
-  padding:10px 50px 10px 50px;
+	padding: 0;
+  padding: 10px 50px 10px 50px;
   color: white;
   text-align: center;
   line-height: 45px; 
@@ -114,9 +124,9 @@ body, html {
 }
 
 #description {
-	padding:0;
-	margin:0;
-	margin:0px 0px 0px 38px;
+	padding: 0;
+	margin: 0;
+	margin: 0px 0px 0px 38px;
   width: 1447px;
 	height: 110px;
   position: relative;
@@ -136,7 +146,7 @@ blockquote{
   z-index: 100;
   margin: 20px -37px 0px 0px;
   font-size: 1.4em;
-  padding-right:25px;
+  padding-right: 25px;
   color: white;
   text-align: center;
   vertical-align: middle;
@@ -183,14 +193,14 @@ blockquote{
 #share p{
 	font-family: "Exo", Georgia, sans-serif;
 	position: relative;
-	top:10px;
+	top: 10px;
 
 	
 }
 .btn{
 	margin-top: 8px;
 	position: relative;
-	left:1px;
+	left: -0.2em;
 	color: #00245D;
 	border-color: #00245D;
 	
@@ -204,7 +214,7 @@ footer {
 	overflow-x: hidden;
 }
 footer li {
-	margin-right: 70px;
+	margin-right: 50px;
 	font-family: "Exo", Georgia, sans-serif;
 	display: inline-block;
 	padding: 25px;
